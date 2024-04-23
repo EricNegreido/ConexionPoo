@@ -9,7 +9,11 @@
   <form action="index_2.php" method="get">
     <label for="buscar"> Buscar Nombre: </label>
     <input name="buscar" type="text">
-    <input type="submit" name="buscando" value="buscar">
+    <input type="submit" name="buscando" value="Buscar">
+  </form><form action="eliminar.php" method="get">
+    <label for="eliminar"> Buscar Dni: </label>
+    <input name="eliminar" type="text">
+    <input type="submit" name="buscando" value="Eliminar">
   </form>
   <form action="insert.php" method="post"> 
     <label for="nombre">Nombre: </label>
@@ -20,7 +24,7 @@
     <input type="number" name="dni" placeholder="38140391">
     <label for="edad">Edad: </label>
     <input type="number" name="edad" placeholder="25, 40, ...">
-    <input type="submit" name="insertar" value="insertar">
+    <input type="submit" name="insertar" value="Agregar">
   </form>
 </body>
 </html>
