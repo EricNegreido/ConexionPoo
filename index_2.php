@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <?php 
+<?php 
   //CONEXION A BASE DE DATOS METODO PDO
   try{
     $data = $_GET["buscar"];
@@ -45,7 +37,4 @@
   }finally{
     $base= null; //VACÍO MEMORIA
   }
-    
-  ?>
-</body>
-</html>
+?>
